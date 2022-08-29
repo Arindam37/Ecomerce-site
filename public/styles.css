@@ -1,0 +1,132 @@
+header{
+    background-image: url('/btn/images/bag.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    height: 116px;
+    position: relative;
+}
+body {
+    
+    
+    /* background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><text x="38%" y="50%" font-size="80" fill="red">Un</text><text x="45%" y="50%" font-size="55" fill="white">plugged</text></svg>'); */
+    /* background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><text x="89%" y="96%" font-size="50" fill="red">Un</text><text x="93%" y="96%" font-size="30" fill="white">plugged</text></svg>'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color:rgba(5, 2, 2, 0.3);  
+ }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+    padding-bottom: 100px;
+}
+.image{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.add-cart {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(27, 21, 21, 0.877);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.image:hover .cart1,
+.image:hover .cart2{
+    bottom: 80px;
+    opacity:1;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-box-shadow: -1px 9px 40px -12px  rgb(11, 137, 255);
+}
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    overflow: hidden;
+    transition: all 1.5s ease;
+  }
+.zoom:hover img{
+    overflow: hidden;
+    transform:scale(1.5);
+}
+.products-container{
+    max-width: 800px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.product-header{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom:4px solid lightblue ;
+
+}
+.product-title{
+    width: 45%;
+    
+}
+.price{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid lightblue;
+}
+.quantity{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid lightblue; 
+
+}
+.total{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid lightblue; 
+
+}
+.product{
+    /* width: 45%%; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom:1px solid lightblue ;
+    
+}
+.totalCostContainer{
+    display: flex;
+    
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 800px;
+
+}

@@ -1,0 +1,52 @@
+html,body{
+  /* background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><text x="40%" y="55%" font-size="200" fill="red">Un</text></svg>'); */
+  /* background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><text x="38%" y="50%" font-size="80" fill="red">Un</text><text x="45%" y="50%" font-size="55" fill="white">plugged</text></svg>'); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+  
+}
+.abcd:hover{
+    color:white;
+  }
+  lor:rgb(36, 13, 241);
+  
+  
+
+  
+.camp:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(5, 0, 0, 0.938);
+}
+.camped:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(247, 245, 245, 0.75);
+}
+.call:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgb(11, 137, 255);
+}
+.card:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px  rgb(11, 137, 255);
+}
+.parallax{
+  height: 30vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/02/01/05/20/supreme-pizza-619133_1280.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+color: white;
+display: flex;
+
+}
+.call1 img{
+  transition: all 1.5s ease;
+}
+.call1:hover img{
+  transform:scale(1.5);
+}
+.connect{
+  color: blueviolet;
+}
+.insta:hover{
+  color: palevioletred;
+}
